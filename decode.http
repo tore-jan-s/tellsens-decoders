@@ -1,0 +1,16 @@
+
+POST https://fn-tellsens-decoders.azurewebsites.net/api/HttpTriggerOyster3Decoder?code=q0V0SnziZWJkQEPec24V7saXa1BbIgqTgU0HtA2vlNLWW/2g9X3gXw==
+Content-Type: application/json
+
+{
+    "timestamp": "04 Mar 2022 14:03:00 GMT",
+    "port": "33",
+    "payload": "E5xXtJIDuBAAOQE="
+}
+
+
+
+    // const port = 33
+    // const payload =  'E5xXtJIDuBAAOQE=' // << cached // not cached'SptXH5ED8gAANQM='
+    // const res = decode(port, payload, '04 Mar 2022 14:03:00 GMT');
+    // console.log(res)
